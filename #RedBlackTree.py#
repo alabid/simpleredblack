@@ -34,5 +34,5 @@ class RBTree:
             verifyProperty4(self.root)
             verifyProperty5(self.root)
 
-
+        
 
