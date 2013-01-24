@@ -27,12 +27,14 @@ class RBTree:
     # conditions of a standard RedBlackTree
     def verifyProperties():
         if VERIFY_RBTREE:
-            verifyProperty1(self.root)
-            verifyProperty2(self.root)
+            self.verifyProperty1(self.root)
+            self.verifyProperty2(self.root)
             # Property 3 is implicit
-            verifyProperty3(self.root)
-            verifyProperty4(self.root)
-            verifyProperty5(self.root)
+            self.verifyProperty3(self.root)
+            self.verifyProperty4(self.root)
+            self.verifyProperty5(self.root)
 
-
+    # verifyProperty1
+    # checks that this node is either red or black
+    def ver
 

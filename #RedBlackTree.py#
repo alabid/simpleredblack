@@ -12,12 +12,9 @@ descendent leaves contains the same number of black
 nodes.
 """
 from TreeNode import *
-
+from VerifyRBTree import *
 
 class RBTree:
-    #### constants
-    VERIFY_RBTREE = True
-
     def __init__(self):
         pass
 
@@ -26,13 +23,8 @@ class RBTree:
     #  RedBlackTree does fulfill the
     # conditions of a standard RedBlackTree
     def verifyProperties():
-        if VERIFY_RBTREE:
-            verifyProperty1(self.root)
-            verifyProperty2(self.root)
-            # Property 3 is implicit
-            verifyProperty3(self.root)
-            verifyProperty4(self.root)
-            verifyProperty5(self.root)
 
-        
+    # verifyProperty1
+    # checks that this node is either red or black
+    def verifyProperty1(
 

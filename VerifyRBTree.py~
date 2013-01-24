@@ -1,0 +1,6 @@
+"""
+VerifyRBTree.py
+Contains functions that verify that a given
+Red Black tree fulfills the properties of
+a standard red black tree.
+"""
